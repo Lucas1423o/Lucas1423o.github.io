@@ -1,0 +1,84 @@
+
+
+.background-gradient {
+    background: linear-gradient(#363942,#0a30a1);
+    min-height: 100vh;
+    overflow: auto;
+}
+
+header {
+    background-color: #0f2a55;
+    border-radius: 0.5vw;
+    background-image: url(/img/banner.png);
+    background-size: cover;
+    
+}
+header > * {
+    color: #dee0e2;
+    font-size: 4vw;
+    padding: 0.85vw;
+    margin: 0 0 0.5vw 0;
+}
+
+nav {
+    background-color: #0a2347;
+    background-image: url(/img/nav_background.jpg);
+    background-size: cover;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 0.25vw;
+    margin: 0.25vw 0 4vw 0;
+}
+nav > a {
+    font-size: 1.7vw;
+    text-decoration-line: none;
+    color: aliceblue;
+    background-color: #3a2097;
+    padding: 0.7vw;
+    margin: 0 1.2vw 0 1.2vw;
+    border-radius: 0.15vw;
+}
+
+body {
+    background-color: #363942;
+}
+
+.contenido {
+    background-color: #2d4c7e;
+    border-radius: 0.50vw;
+}
+.contenido > .contenedorTexto > * {
+    color: #dee0e2;
+    padding: 1vw;
+}
+.contenido > .contenedorTexto > p {
+    font-size: 1.5vw;
+}
+.contenedorTexto > ol > li {
+    margin-left: 15vw;
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+.centrarTexto {
+    text-align: center;
+}
+
+footer > div {
+    background-color: #3a609c;
+    border-radius: 0.15vw;
+    bottom: 0%;
+}
+footer > div > p {
+    padding: 0.75vw;
+    font-size: 1.25vw;
+    color: #dee0e2;
+}
+footer > div > div {
+    padding: 0.75vw;
+    font-size: 1.25vw;
+    color: #dee0e2;
+}
+footer > div > p > .textoPequeño {
+    font-size: 0.75vw;
+}
